@@ -15,7 +15,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ## ✒️ Autores
 
-- **Miguel Ramos** - _Coordenação do Projeto_ - [miguel-sr](https://github.com/miguel-sr)
+- **[Miguel Ramos](https://github.com/miguel-sr)** - _Coordenação do Projeto_ - 
 
 ## 📄 Licença
 
