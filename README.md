@@ -12,6 +12,17 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 - [FRC Game Tools](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/frc-game-tools.html) - Software para operação do robô
 - [Phoenix Framework](https://store.ctr-electronics.com/software/) - Software para configuração dos componentes da CTRe
 - [REV Hardware Client](https://docs.revrobotics.com/rev-hardware-client/) - Software para configuração dos componentes da REV
+- [GIT](https://git-scm.com/downloads) - Versionamento do código
+
+### 🔧 Instalação
+
+1. Clone o repositório com o comando `git clone https://github.com/miguel-sr/InBR-2024.git`
+2. Abra o projeto com o WPILib VS Code
+3. Execute o processo de build com `./gradlew build` se não for executado automaticamente
+
+## 🖇️ Colaborando
+
+Por favor, leia o [COLABORACAO.md](https://github.com/miguel-sr/InBR-2024/blob/main/COLABORACAO.md) para obter detalhes sobre o nosso código de conduta e o processo para enviar pedidos de solicitação.
 
 ## ✒️ Autores
 
