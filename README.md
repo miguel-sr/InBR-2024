@@ -67,7 +67,7 @@ Antes de se aventurar nesse projeto é importante que você conheça a bibliotec
 7. Procure por sua branch no [projeto](https://github.com/miguel-sr/InBR-2024/branches) e faça o pedido de merge para a main,
 atribuindo algum mentor para revisão das suas alterações.
 
-- Aguarde pela revisão e prossiga pro seu próximo desafio 😉
+### Aguarde pela revisão e prossiga pro seu próximo desafio 😉
 
 ## ✒️ Autores
 
@@ -75,4 +75,4 @@ atribuindo algum mentor para revisão das suas alterações.
 
 ## 📄 Licença
 
-Este projeto está sob a licença WPILib BSD license - veja o arquivo [WPILib-License.md](https://github.com/miguel-sr/InBR-2024/blob/main/WPILib-License.md) para detalhes.
+Este projeto está sob a licença BSD - veja o arquivo [WPILib-License.md](https://github.com/miguel-sr/InBR-2024/blob/main/WPILib-License.md) para detalhes.
