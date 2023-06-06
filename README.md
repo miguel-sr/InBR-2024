@@ -54,7 +54,7 @@ atribuindo algum mentor para revisão das suas alterações.
 
 ## ✒️ Autores
 
-- **Miguel Ramos** - _Coordenação do Projeto_ - [miguel-sr](https://github.com/miguel-sr)
+- **Miguel Ramos** - _Mentor do Projeto_ - [miguel-sr](https://github.com/miguel-sr)
 
 ## 📄 Licença
 
