@@ -22,11 +22,17 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ## 🖇️ Contribuindo com o projeto
 
+### ⚠ Importante
+
+Antes de se aventurar nesse projeto é importante que você conheça a biblioteca [WPILib](https://docs.wpilib.org/en/stable/) e tenha noção das suas funcionalidades.
+
+### 📃 Intruções para fazer um Pull Request (PR)
+
 1. Acesse algum dos [Issues](https://github.com/miguel-sr/InBR-2024/issues) que estão abertos e veja seu objetivo.
 2. Após entender seu Issue, é hora de botar a mão na massa. Para isso, crie um novo branch no padrão **KEBAB CASE** iniciando com o código do Issue seguido pelo título, exemplo:
 
    ```
-   git checkout -B 13-criar-comando-para-usar-substistema-drive
+   git checkout -B 13-criar-comando-para-usar-subsistema-drive
    ```
 
 3. Com suas alterações feitas faça o commit iniciando com # e o código do Issue e sua mensagem de forma objetiva:
