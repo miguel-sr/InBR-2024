@@ -48,7 +48,7 @@ Antes de se aventurar nesse projeto é importante que você conheça a bibliotec
 4. Para subir as alterações use:
 
    ```
-   git push -u origin 13-criar-comando-para-usar-substistema-drive
+   git push -u origin 13-criar-comando-para-usar-subsistema-drive
    ```    
    Obs: Lembre-se de alterar para o nome da sua branch
 
