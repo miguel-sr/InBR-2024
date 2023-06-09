@@ -4,6 +4,7 @@
 
 package frc.robot.subsystems;
 
+import com.ctre.phoenix.motorcontrol.NeutralMode;
 import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
 
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
@@ -26,7 +27,15 @@ public class DriveSubsystem extends SubsystemBase {
   DifferentialDrive drive = new DifferentialDrive(leftMotors, rightMotors);
 
   /** Creates a new DriveSubsystem. */
-  public DriveSubsystem() {}
+  public DriveSubsystem() {
+    leftFrontMotor.setNeutralMode(NeutralMode.Brake);
+    leftRearMotor.setNeutralMode(NeutralMode.Brake);
+    leftMotors.setInverted(true);
+
+    rightFrontMotor.setNeutralMode(NeutralMode.Brake);
+    rightRearMotor.setNeutralMode(NeutralMode.Brake);
+    
+  }
 
   @Override
   public void periodic() {
