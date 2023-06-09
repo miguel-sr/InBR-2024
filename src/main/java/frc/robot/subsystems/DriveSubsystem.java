@@ -37,6 +37,9 @@ public class DriveSubsystem extends SubsystemBase {
     
   }
 
+  public void driveMotors(double xSpeed, double zRotation) {
+    drive.curvatureDrive(xSpeed, zRotation, true);
+  };
   @Override
   public void periodic() {
     // This method will be called once per scheduler run
