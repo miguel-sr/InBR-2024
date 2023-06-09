@@ -6,20 +6,25 @@ package frc.robot.subsystems;
 
 import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
 
+import edu.wpi.first.wpilibj.drive.DifferentialDrive;
+import edu.wpi.first.wpilibj.motorcontrol.MotorControllerGroup;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import frc.robot.Constants.DriveConstants;
 
 public class DriveSubsystem extends SubsystemBase {
 
   private final WPI_VictorSPX leftFrontMotor = new WPI_VictorSPX(DriveConstants.kLeftFrontMotorPort);
-
-  private final  WPI_VictorSPX leftRearMotor = new WPI_VictorSPX(DriveConstants.kLeftRearMotorPort);
+  private final WPI_VictorSPX leftRearMotor = new WPI_VictorSPX(DriveConstants.kLeftRearMotorPort);
+  
+  private final MotorControllerGroup leftMotors = new MotorControllerGroup(leftFrontMotor, leftRearMotor);
 
   private final WPI_VictorSPX rightFrontMotor = new WPI_VictorSPX(DriveConstants.kRightFrontMotorPort);
-
-  private final WPI_VictorSPX RightRearMotor = new WPI_VictorSPX(DriveConstants.kLeftRearMotorPort);
-
+  private final WPI_VictorSPX rightRearMotor = new WPI_VictorSPX(DriveConstants.kLeftRearMotorPort);
   
+  private final MotorControllerGroup rightMotors = new MotorControllerGroup(rightFrontMotor, rightRearMotor);
+
+  DifferentialDrive drive = new DifferentialDrive(leftMotors, rightMotors);
+
   /** Creates a new DriveSubsystem. */
   public DriveSubsystem() {}
 
